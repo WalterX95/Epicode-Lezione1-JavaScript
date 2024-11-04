@@ -170,13 +170,13 @@ console.log("Esercizio 7 -> ",exp);
 
 /*Extra  Esercizio 7 */
 name2 = name2.toLowerCase();
-console.log("Esercizio 7 Extra ->", exp);
-
+let exp2 = name1 === name2;
+console.log("Esercizio 7 Extra ->", exp2);
 
 /*Esercizio 5 */
 const Nome = "Walter";
 function CostanteNonAssegnate(nome) {
-   nome = "10";
+   Nome = "10";
    console.log(nome);
 }
 
